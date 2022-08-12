@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="fjgrewmx">
+  <resources>
+    <component id="kcnv0" name="Main.xml" path="/" exported="true"/>
+    <component id="j4yd1" name="LoginBtn.xml" path="/"/>
+    <image id="j4yd2" name="img_bg.png" path="/img/"/>
+    <image id="j4yd3" name="btn_ok_purchase_shadow.png" path="/img/" scale="9grid" scale9grid="28,12,56,24"/>
+    <image id="j4yd4" name="img_purchase_bg.png" path="/img/"/>
+    <image id="j4yd5" name="btn_ok.png" path="/img/"/>
+    <image id="j4yd6" name="btn_ok_shadow.png" path="/img/"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>

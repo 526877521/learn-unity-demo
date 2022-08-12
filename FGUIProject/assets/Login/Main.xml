@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <displayList>
+    <image id="n0_j4yd" name="n0" src="j4yd2" fileName="img/img_bg.png" xy="0,0"/>
+    <image id="n1_j4yd" name="n1" src="j4yd4" fileName="img/img_purchase_bg.png" xy="458,173">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n2_j4yd" name="login_btn" src="j4yd1" fileName="LoginBtn.xml" xy="876,797"/>
+    <text id="n3_j4yd" name="n3" xy="613,425" size="693,230" fontSize="30" color="#ffffff" vAlign="middle" autoSize="none" text="说明文字说明文字说明文字说明文字说明文字说明文字说明文字说明文字说明文字"/>
+  </displayList>
+</component>
