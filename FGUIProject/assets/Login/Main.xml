@@ -6,6 +6,6 @@
       <relation target="" sidePair="center-center,middle-middle"/>
     </image>
     <component id="n2_j4yd" name="login_btn" src="j4yd1" fileName="LoginBtn.xml" xy="876,797"/>
-    <text id="n3_j4yd" name="n3" xy="613,425" size="693,230" fontSize="30" color="#ffffff" vAlign="middle" autoSize="none" text="说明文字说明文字说明文字说明文字说明文字说明文字说明文字说明文字说明文字"/>
+    <text id="n3_j4yd" name="des_tip" xy="613,425" size="693,230" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="说明文字说明文字说明文字说明文字说明文字说明文字说明文字说明文字说明文字"/>
   </displayList>
 </component>
