@@ -5,9 +5,18 @@ using System.Threading.Tasks;
 using FairyGUI;
 using Login;
 using UnityEngine;
-
+using Newtonsoft.Json;
 public class Root : MonoBehaviour
 {
+    
+    public static Newtonsoft.Json.Linq.JObject DeserializeString(string jsonStr)
+    {
+      
+        Newtonsoft.Json.Linq.JObject jsonDict = (Newtonsoft.Json.Linq.JObject)JsonConvert.DeserializeObject(jsonStr);
+
+        return jsonDict;
+
+    }
     // Start is called before the first frame update
     void Start()
     {
