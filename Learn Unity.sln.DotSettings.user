@@ -3,4 +3,6 @@
   &lt;Assembly Path="E:\Documents\unity\My project\Learn Unity\Assets\Plugins\EPPlus.dll" /&gt;&#xD;
   &lt;Assembly Path="E:\ProgramFiles\Unity Hub\Editor\2021.3.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.dll" /&gt;&#xD;
   &lt;Assembly Path="E:\Documents\unity\My project\Learn Unity\Assets\Plugins\Jint\Jint.dll" /&gt;&#xD;
+  &lt;Assembly Path="E:\Documents\unity\My project\Learn Unity\Assets\ExcelTool\ExcelPlugins\ExcelDataReader.DataSet.dll" /&gt;&#xD;
+  &lt;Assembly Path="E:\Documents\unity\My project\Learn Unity\Assets\ExcelTool\ExcelPlugins\ExcelDataReader.dll" /&gt;&#xD;
 &lt;/AssemblyExplorer&gt;</s:String></wpf:ResourceDictionary>
