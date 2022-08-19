@@ -117,8 +117,6 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"Assets/ExcelTool/ExcelPlugins/ExcelDataReader.DataSet.dll"
--r:"Assets/ExcelTool/ExcelPlugins/ExcelDataReader.dll"
 -r:"Assets/Plugins/Jint/Jint.dll"
 -r:"E:/Documents/unity/My project/Learn Unity/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
 -r:"E:/Documents/unity/My project/Learn Unity/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
@@ -352,8 +350,6 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
--analyzer:"Assets/ExcelTool/ExcelPlugins/ExcelDataReader.DataSet.dll"
--analyzer:"Assets/ExcelTool/ExcelPlugins/ExcelDataReader.dll"
 "Assets/Plugins/AsyncAwaitUtil/Source/Awaiters.cs"
 "Assets/Plugins/AsyncAwaitUtil/Source/AwaitExtensions.cs"
 "Assets/Plugins/AsyncAwaitUtil/Source/IEnumeratorAwaitExtensions.cs"

@@ -122,8 +122,8 @@
 -define:MODULE_PARTICLE_SYSTEM_EXISTS
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"Assets/ExcelTool/ExcelPlugins/ExcelDataReader.DataSet.dll"
--r:"Assets/ExcelTool/ExcelPlugins/ExcelDataReader.dll"
+-r:"Assets/3rd/ExcelDataTool/Editor/Plugins/ExcelDataReader.DataSet.dll"
+-r:"Assets/3rd/ExcelDataTool/Editor/Plugins/ExcelDataReader.dll"
 -r:"Assets/Plugins/Jint/Jint.dll"
 -r:"E:/Documents/unity/My project/Learn Unity/Library/PackageCache/com.unity.collab-proxy@1.15.18/Lib/Editor/PlasticSCM/log4netPlastic.dll"
 -r:"E:/Documents/unity/My project/Learn Unity/Library/PackageCache/com.unity.collab-proxy@1.15.18/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
@@ -344,8 +344,6 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.VisualScripting.Core.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
--analyzer:"Assets/ExcelTool/ExcelPlugins/ExcelDataReader.DataSet.dll"
--analyzer:"Assets/ExcelTool/ExcelPlugins/ExcelDataReader.dll"
 "Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Connections/ControlConnection.cs"
 "Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Connections/InvalidConnection.cs"
 "Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Connections/IUnitConnection.cs"
