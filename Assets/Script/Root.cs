@@ -30,7 +30,8 @@ public class Root : MonoBehaviour
         my_view.m_login_btn.onClick.Add(async () =>
         {
             Debug.Log("点击登录按钮" + Application.dataPath);
-            my_view.m_des_tip.text = "hhhhhhhhhhhhh";
+            my_view.m_des_tip.text = "Name";
+            
 
             // ItemManager man = Resources.Load<ItemManager>("DataAssets/Item");
             // Item myItem = man.getItemById(10001);
