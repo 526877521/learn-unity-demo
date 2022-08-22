@@ -117,6 +117,7 @@
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Core\HitTest\PixelHitTest.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Tween\GPath.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\UI\Gears\GearSize.cs" />
+     <Compile Include="Assets\Script\Root.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Core\Mesh\EllipseMesh.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\UI\AsyncCreationHelper.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\UI\RelationItem.cs" />
