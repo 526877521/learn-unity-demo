@@ -333,8 +333,6 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
--analyzer:"Assets/ExcelTool/ExcelPlugins/ExcelDataReader.DataSet.dll"
--analyzer:"Assets/ExcelTool/ExcelPlugins/ExcelDataReader.dll"
 "Library/PackageCache/com.unity.ide.visualstudio@2.0.15/Editor/AssemblyInfo.cs"
 "Library/PackageCache/com.unity.ide.visualstudio@2.0.15/Editor/AsyncOperation.cs"
 "Library/PackageCache/com.unity.ide.visualstudio@2.0.15/Editor/Cli.cs"

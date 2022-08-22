@@ -41,10 +41,6 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="E:\Documents\unity\My project\Learn Unity\Assets\ExcelTool\ExcelPlugins\ExcelDataReader.DataSet.dll" />
-    <Analyzer Include="E:\Documents\unity\My project\Learn Unity\Assets\ExcelTool\ExcelPlugins\ExcelDataReader.dll" />
-  </ItemGroup>
-  <ItemGroup>
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Utils\Html\HtmlSelect.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Core\Text\TypingEffect.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\UI\UIContentScaler.cs" />
@@ -53,7 +49,6 @@
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Tween\TweenManager.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Core\Stats.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Core\HitTest\HitTestContext.cs" />
-     <Compile Include="Assets\ExcelTool\ExcelData\ExcelDataManager.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Core\NAudioClip.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Tween\EaseType.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Core\GoWrapper.cs" />
@@ -61,7 +56,6 @@
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Core\Text\SelectionShape.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Core\Mesh\RectMesh.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Utils\XMLIterator.cs" />
-     <Compile Include="Assets\ExcelTool\Convert\ExcelToClass.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\UI\GTreeNode.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Core\NTexture.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Core\Image.cs" />
@@ -81,7 +75,6 @@
      <Compile Include="Assets\3rd\FairyGUI\Scripts\UI\UIPackage.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Core\Mesh\FillMesh.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\UI\Action\ChangePageAction.cs" />
-     <Compile Include="Assets\ExcelTool\Convert\ExcelMiddleData.cs" />
      <Compile Include="Assets\Script\Utils\HttpMgr.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Utils\XMLUtils.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Filter\IFilter.cs" />
@@ -108,21 +101,22 @@
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Gesture\SwipeGesture.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Utils\UBBParser.cs" />
      <Compile Include="Assets\Script\FGui\Login\LoginBinder.cs" />
+     <Compile Include="Assets\3rd\ExcelDataTool\HotUpdateScripts\Game\ExcelData\EDTable_Monster.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\UI\GRoot.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Core\Mesh\LineMesh.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Event\InputEvent.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Core\Text\RTLSupport.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\UI\Gears\GearText.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Core\Text\FontManager.cs" />
+     <Compile Include="Assets\3rd\ExcelDataTool\HotUpdateScripts\MetaFramework\ExcelDataTool\ExcelData\EDItemBase.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\UI\GScrollBar.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Core\Mesh\MeshFactory.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Gesture\PinchGesture.cs" />
+     <Compile Include="Assets\3rd\ExcelDataTool\HotUpdateScripts\MetaFramework\Singleton\SingletonTemplate.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\UI\Controller.cs" />
-     <Compile Include="Assets\ExcelTool\ItemObj.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Core\HitTest\PixelHitTest.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Tween\GPath.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\UI\Gears\GearSize.cs" />
-     <Compile Include="Assets\Script\Root.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Core\Mesh\EllipseMesh.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\UI\AsyncCreationHelper.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\UI\RelationItem.cs" />
@@ -130,7 +124,6 @@
      <Compile Include="Assets\3rd\FairyGUI\Scripts\UI\TranslationHelper.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\UI\UIConfig.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Core\Mesh\RegularPolygonMesh.cs" />
-     <Compile Include="Assets\ExcelTool\ExcelData\EDTableBase.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\UI\EMRenderSupport.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\UI\PopupMenu.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\UI\GSlider.cs" />
@@ -141,7 +134,6 @@
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Core\CaptureCamera.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Core\Mesh\CompositeMesh.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Core\Mesh\PolygonMesh.cs" />
-     <Compile Include="Assets\ExcelTool\Singleton\MonoSingletonTemplate.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Event\EventContext.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Core\Text\DynamicFont.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Core\Text\InputTextField.cs" />
@@ -155,18 +147,15 @@
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Core\Text\IKeyboard.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\UI\Gears\GearFontSize.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\UI\GTextField.cs" />
-     <Compile Include="Assets\ExcelTool\EditorTool\ExcelConvertRequest.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\UI\GImage.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Event\EventListener.cs" />
+     <Compile Include="Assets\3rd\ExcelDataTool\HotUpdateScripts\MetaFramework\ExcelDataTool\ExcelData\ExcelDataManager.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Core\UpdateContext.cs" />
-     <Compile Include="Assets\ExcelTool\ItemManager.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\UI\Gears\GearLook.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\UI\GComponent.cs" />
-     <Compile Include="Assets\ExcelTool\ExcelData\EDItemBase.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Core\Container.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\UI\GObjectPool.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\UI\GObject.cs" />
-     <Compile Include="Assets\ExcelTool\ExcelPlugins\ExcelImportEditorWindow.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Core\Mesh\PlaneMesh.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\UI\UIPainter.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Utils\Html\HtmlParseOptions.cs" />
@@ -178,7 +167,6 @@
      <Compile Include="Assets\3rd\FairyGUI\Scripts\UI\GGroup.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\UI\Window.cs" />
      <Compile Include="Assets\Script\Utils\BlockChainMgr.cs" />
-     <Compile Include="Assets\ExcelTool\Singleton\SingletonTemplate.cs" />
      <Compile Include="Assets\Script\Utils\GUtils.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Core\Text\TextFormat.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Core\Text\BitmapFont.cs" />
@@ -189,6 +177,7 @@
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Utils\ZipReader.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\UI\Gears\GearColor.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\UI\Gears\GearIcon.cs" />
+     <Compile Include="Assets\3rd\ExcelDataTool\HotUpdateScripts\MetaFramework\ExcelDataTool\ExcelData\EDTableBase.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\UI\Gears\GearXY.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Core\StageCamera.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\UI\IUISource.cs" />
@@ -205,7 +194,6 @@
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Event\EventBridge.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Utils\Html\HtmlPageContext.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\UI\GLabel.cs" />
-     <Compile Include="Assets\ExcelTool\EditorTool\ExcelConvertTool.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Tween\TweenPropType.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Utils\Html\HtmlInput.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Extensions\TextMeshPro\TMPTextFormat.cs" />
@@ -213,23 +201,20 @@
      <Compile Include="Assets\3rd\FairyGUI\Scripts\UI\Action\PlayTransitionAction.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Core\ShaderConfig.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\UI\FieldTypes.cs" />
-     <Compile Include="Assets\ExcelTool\EditorTool\ExcelConfig.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Extensions\DragonBones\DragonBonesLoader.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\UI\GLoader3D.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\UI\Action\ControllerAction.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Core\Text\TextField.cs" />
+     <Compile Include="Assets\3rd\ExcelDataTool\HotUpdateScripts\MetaFramework\Singleton\MonoSingletonTemplate.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\UI\Gears\GearAnimation.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Tween\TweenValue.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Extensions\TextMeshPro\TMPFont.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Gesture\LongPressGesture.cs" />
-     <Compile Include="Assets\ExcelTool\Entity\EDTable_Monster.cs" />
-     <None Include="Assets\ExcelTool\ExcelPlugins\ExcelDataReader.xml" />
-     <None Include="Assets\ExcelTool\ExcelPlugins\ExcelDataReader.DataSet.xml" />
      <None Include="Assets\3rd\FairyGUI\Resources\Shaders\FairyGUI-Text.shader" />
+     <None Include="Assets\3rd\ExcelDataTool\HotUpdateResources\ExcelData\Monster.json" />
      <None Include="Assets\3rd\FairyGUI\Resources\Shaders\FairyGUI-Image.shader" />
-     <None Include="Assets\HotUpdateResources\ExcelData\Monster.json" />
      <None Include="Assets\3rd\FairyGUI\Resources\Shaders\AddOn\FairyGUI-BlurFilter.shader" />
-     <None Include="Assets\ExcelTool\Template\ExcelDataClassTemplate.txt" />
+     <None Include="Assets\3rd\ExcelDataTool\Excel\Excel表规则.txt" />
      <None Include="Assets\3rd\FairyGUI\ReadMe - 4.3.0.txt" />
      <None Include="Assets\3rd\FairyGUI\Resources\Shaders\FairyGUI-BMFont.shader" />
      <None Include="Assets\3rd\FairyGUI\Extensions\TextMeshPro\Shaders\FairyGUI-TMP.shader" />
@@ -487,12 +472,6 @@
      </Reference>
      <Reference Include="Newtonsoft.Json">
      <HintPath>E:\Documents\unity\My project\Learn Unity\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
-     </Reference>
-     <Reference Include="ExcelDataReader">
-     <HintPath>E:\Documents\unity\My project\Learn Unity\Assets\ExcelTool\ExcelPlugins\ExcelDataReader.dll</HintPath>
-     </Reference>
-     <Reference Include="ExcelDataReader.DataSet">
-     <HintPath>E:\Documents\unity\My project\Learn Unity\Assets\ExcelTool\ExcelPlugins\ExcelDataReader.DataSet.dll</HintPath>
      </Reference>
      <Reference Include="netstandard">
      <HintPath>E:\ProgramFiles\Unity Hub\Editor\2021.3.5f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>

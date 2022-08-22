@@ -1,22 +1,19 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using System.Threading.Tasks;
 using FairyGUI;
 using Login;
 using UnityEngine;
 using Newtonsoft.Json;
+
 public class Root : MonoBehaviour
 {
-    
     public static Newtonsoft.Json.Linq.JObject DeserializeString(string jsonStr)
     {
-      
         Newtonsoft.Json.Linq.JObject jsonDict = (Newtonsoft.Json.Linq.JObject)JsonConvert.DeserializeObject(jsonStr);
 
         return jsonDict;
-
     }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,10 +28,10 @@ public class Root : MonoBehaviour
         {
             Debug.Log("点击登录按钮" + Application.dataPath);
             my_view.m_des_tip.text = "hhhhhhhhhhhhh";
-
+            EDItem_Monster monster =EDItem_Monster.GetById(1);
             // ItemManager man = Resources.Load<ItemManager>("DataAssets/Item");
             // Item myItem = man.getItemById(10001);
-            // Debug.Log(myItem.itemPrice + "---" + myItem.itemName + "---" + myItem.itemPrice);
+            Debug.Log(monster.attack + "---" + monster.name + "---" + monster.isBoss);
 
             //todo 发送请求，调取后端数据
             // var usr= JsonConvert.SerializeObject("{name: 'zs', age: 18}");
@@ -48,22 +45,16 @@ public class Root : MonoBehaviour
             //  Debug.Log(dic1["buildingList"]);
         });
     }
+
     void fguiBindAndLoad()
     {
         LoginBinder.BindAll();
         UIPackage.AddPackage("UI/login");
     }
 
-    public async Task<string> getHttpGet(string url)
-    {
-        await Task.Delay(TimeSpan.FromSeconds(1));
-        return "aaaa";
-        // var ret= await httpGet(url);
-        // return ret;
-    }
+
     // Update is called once per frame
     void Update()
     {
-        
     }
 }

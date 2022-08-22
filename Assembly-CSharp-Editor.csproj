@@ -41,18 +41,24 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="E:\Documents\unity\My project\Learn Unity\Assets\ExcelTool\ExcelPlugins\ExcelDataReader.DataSet.dll" />
-    <Analyzer Include="E:\Documents\unity\My project\Learn Unity\Assets\ExcelTool\ExcelPlugins\ExcelDataReader.dll" />
-  </ItemGroup>
-  <ItemGroup>
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Editor\StageCameraEditor.cs" />
+     <Compile Include="Assets\3rd\ExcelDataTool\Editor\ExcelConvet\Convert\ExcelMiddleData.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Editor\UIConfigEditor.cs" />
+     <Compile Include="Assets\3rd\ExcelDataTool\Editor\ExcelConvet\ExcelConvertTool.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Editor\UIPainterEditor.cs" />
+     <Compile Include="Assets\3rd\ExcelDataTool\Editor\ExcelConvet\Convert\ExcelExportToClass.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Editor\PackagesWindow.cs" />
+     <Compile Include="Assets\3rd\ExcelDataTool\Editor\ExcelConvet\ExcelConvertPathSetting.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Editor\EditorToolSet.cs" />
+     <Compile Include="Assets\3rd\ExcelDataTool\Editor\ExcelImportEditorWindow.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Editor\UIContentScalerEditor.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Editor\DisplayObjectEditor.cs" />
+     <Compile Include="Assets\3rd\ExcelDataTool\Editor\ExcelConvet\Convert\ExcelExportToAsset.cs" />
      <Compile Include="Assets\3rd\FairyGUI\Scripts\Editor\UIPanelEditor.cs" />
+     <Compile Include="Assets\3rd\ExcelDataTool\Editor\ExcelConvet\ExcelConvertRequest.cs" />
+     <None Include="Assets\3rd\ExcelDataTool\Editor\ExcelConvet\Template\ExcelDataClassTemplate.txt" />
+     <None Include="Assets\3rd\ExcelDataTool\Editor\Plugins\ExcelDataReader.DataSet.xml" />
+     <None Include="Assets\3rd\ExcelDataTool\Editor\Plugins\ExcelDataReader.xml" />
      <Reference Include="UnityEngine">
      <HintPath>E:\ProgramFiles\Unity Hub\Editor\2021.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
@@ -314,6 +320,9 @@
      <Reference Include="Jint">
      <HintPath>E:\Documents\unity\My project\Learn Unity\Assets\Plugins\Jint\Jint.dll</HintPath>
      </Reference>
+     <Reference Include="ExcelDataReader.DataSet">
+     <HintPath>E:\Documents\unity\My project\Learn Unity\Assets\3rd\ExcelDataTool\Editor\Plugins\ExcelDataReader.DataSet.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.Plastic.Antlr3.Runtime">
      <HintPath>E:\Documents\unity\My project\Learn Unity\Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
      </Reference>
@@ -322,6 +331,9 @@
      </Reference>
      <Reference Include="unityplastic">
      <HintPath>E:\Documents\unity\My project\Learn Unity\Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+     </Reference>
+     <Reference Include="ExcelDataReader">
+     <HintPath>E:\Documents\unity\My project\Learn Unity\Assets\3rd\ExcelDataTool\Editor\Plugins\ExcelDataReader.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.TextureAssets">
      <HintPath>E:\Documents\unity\My project\Learn Unity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
@@ -340,12 +352,6 @@
      </Reference>
      <Reference Include="Newtonsoft.Json">
      <HintPath>E:\Documents\unity\My project\Learn Unity\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
-     </Reference>
-     <Reference Include="ExcelDataReader">
-     <HintPath>E:\Documents\unity\My project\Learn Unity\Assets\ExcelTool\ExcelPlugins\ExcelDataReader.dll</HintPath>
-     </Reference>
-     <Reference Include="ExcelDataReader.DataSet">
-     <HintPath>E:\Documents\unity\My project\Learn Unity\Assets\ExcelTool\ExcelPlugins\ExcelDataReader.DataSet.dll</HintPath>
      </Reference>
      <Reference Include="nunit.framework">
      <HintPath>E:\Documents\unity\My project\Learn Unity\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
