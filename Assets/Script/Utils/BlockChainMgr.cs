@@ -1,34 +1,3 @@
-﻿using System.Runtime.InteropServices;
-
-namespace Script.FGui.Utils
-{
-    public class BlockChainMgr
-    {
-        private static BlockChainMgr _instance = null;
-        
-        
-        [DllImport("__Internal")]
-        private static extern void Web3Connect();
-        
-        //账户连接
-        [DllImport("__Internal")]
-        private static extern string ConnectAccount();
-        
-        [DllImport("__Internal")]
-        private static extern void SetConnectAccount(string value);
-        
-        public static BlockChainMgr getInstance()
-        {
-            if (BlockChainMgr._instance == null)
-            {
-                return new BlockChainMgr();
-            }
-            return BlockChainMgr._instance;
-        }
-
-        public void init()
-        {
-            
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f8aa8360a4e424a06bfcb804fae6fedf7127330260a2ffd97c91bc959cfe9d9d
+size 1672
